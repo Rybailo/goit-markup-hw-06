@@ -235,6 +235,7 @@ img {
   background-color: var(--bottomc);
   color: var(--second-bottomc);
   transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .inform-botton:hover,
@@ -518,6 +519,7 @@ img {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .image-boreder {
@@ -721,6 +723,10 @@ img {
   background-color: #2196f3;
 }
 
+.footer-subscription-wrap {
+  margin-left: 23px;
+}
+
 .footer-subscription-title {
   font-weight: 700;
   font-size: 14px;
@@ -731,6 +737,57 @@ img {
   margin-bottom: 20px;
 }
 .footer-subscription {
+  display: flex;
+}
+
+.footer-sub-text {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  outline: none;
+  background-color: #2f303a;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sub-btn {
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  outline: none;
+  border-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding-left: 29px;
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.footer-sub-icons {
+  fill: #ffffff;
+  margin-left: 10px;
+}
+
+.sub-btn:hover,
+.sub-btn:focus {
+  background-color: #188ce8;
 }
 
 /*------------------------BACKDROP-------------------------*/
@@ -777,6 +834,7 @@ img {
   justify-self: center;
   align-items: center;
   transition: fill 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .modal-button:hover {
@@ -829,6 +887,7 @@ img {
   padding-left: 29px;
   outline: none;
   transition: border-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 /*
 .modal-input::placeholder {
@@ -873,6 +932,7 @@ img {
   resize: none;
   margin-top: 4px;
   transition: border-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .modal-text:focus {
@@ -929,6 +989,7 @@ a {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
   margin-bottom: 40px;
 }
 
